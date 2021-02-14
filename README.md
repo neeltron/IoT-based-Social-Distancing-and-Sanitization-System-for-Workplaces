@@ -10,4 +10,11 @@ The Prototype consists of:
   <li>Servo Motor</li>
   <li>18650 Lithium Ion Batteries</li>
 </ul>
-    
+<hr>
+
+# Installation
+
+Download and install Arduino IDE from https://www.arduino.cc/ and ...
+
+Clone this repository
+
