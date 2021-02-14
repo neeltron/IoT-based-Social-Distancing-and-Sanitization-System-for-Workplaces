@@ -34,3 +34,23 @@ Setup for NodeMCU:
 </ol>
 
 Clone this repository, choose the proper boards, check with the COM Ports and feel free to upload the code.
+
+# Connectivity
+
+## NodeMCU - Arduino Nano
+D5 - GPIO 5
+D6 - GPIO 6
+## Arduino Nano - L293D
+GPIO 7 - IN1
+GPIO 8 - MTR1
++3.3V - +5V
+GND - GND
+## Arduino Nano - Servo
+5V - VCC
+GND - GND
+Digital - GPIO 3
+## Arduino Nano - HC-SR04
+GPIO 11 - Trig
+GPIO 12 - Echo
+VCC - +5V
+GND - GND
