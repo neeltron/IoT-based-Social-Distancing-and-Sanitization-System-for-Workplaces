@@ -4,8 +4,8 @@
 #include <BlynkSimpleEsp8266.h>
 SoftwareSerial s(D5, D6);
 char auth[] = "By9BSWe58Yf0bjAzN837U9rgHhGlTO7N";
-char ssid[] = "Trikuldham";
-char pass[] = "jaihanuman1981";
+char ssid[] = "neeltron";
+char pass[] = "163a4c3d1146";
 int data;
 BLYNK_WRITE(V1)
 {
@@ -20,7 +20,7 @@ void setup()
   Blynk.begin(auth, ssid, pass);
 }
 void loop()
-{ 
+{
   Blynk.run();
   if (s.available() > 0)
   {
