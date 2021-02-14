@@ -5,6 +5,7 @@ The Prototype consists of:
 <ul>
   <li>Arduino Nano</li>
   <li>ESP8266 Module</li>
+  <li>L293D Motor Driver</li>
   <li>5V DC Pump</li>
   <li>Servo Motor</li>
   <li>18650 Lithium Ion Batteries</li>
