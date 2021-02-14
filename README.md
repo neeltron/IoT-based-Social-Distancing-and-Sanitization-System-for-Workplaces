@@ -38,19 +38,19 @@ Clone this repository, choose the proper boards, check with the COM Ports and fe
 # Connectivity
 
 ## NodeMCU - Arduino Nano
-D5 - GPIO 5
+D5 - GPIO 5<br>
 D6 - GPIO 6
 ## Arduino Nano - L293D
-GPIO 7 - IN1
-GPIO 8 - MTR1
-+3.3V - +5V
+GPIO 7 - IN1<br>
+GPIO 8 - MTR1<br>
++3.3V - +5V<br>
 GND - GND
 ## Arduino Nano - Servo
-5V - VCC
-GND - GND
+5V - VCC<br>
+GND - GND<br>
 Digital - GPIO 3
 ## Arduino Nano - HC-SR04
-GPIO 11 - Trig
-GPIO 12 - Echo
-VCC - +5V
+GPIO 11 - Trig<br>
+GPIO 12 - Echo<br>
+VCC - +5V<br>
 GND - GND
