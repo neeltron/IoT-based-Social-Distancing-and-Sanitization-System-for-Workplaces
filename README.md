@@ -4,18 +4,17 @@ This is the implementation of an IoT based setup that has the ability to allow e
 
 The Prototype consists of:
 <ul>
-  <li>Arduino Nano</li>
-  <li>ESP8266 Module</li>
+  <li>Arduino Nano - Conveys the data to the sensors and activates them accordingly.</li>
+  <li>ESP8266 Module - It's a microcontroller, based on an open source firmware. In this project, it receives data from the app through Wi-Fi.</li>
   <li>L293D Motor Driver</li>
-  <li>5V DC Pump</li>
-  <li>Servo Motor</li>
+  <li>5V DC Pump - It's used to control to sanitizing mechanism.</li>
+  <li>Servo Motor - Used to power the project.</li>
   <li>18650 Lithium Ion Batteries</li>
-  <li>HC-SR04 Ultrasonic Distance Sensor</li>
+  <li>HC-SR04 Ultrasonic Distance Sensor - It's used to detect the distance to the people entering the work area, and control the sanitization mechanism accordingly.</li>
 </ul>
 <hr>
 
 # Installation
-
 Installing Arduino IDE:
 <ol>
   <li>Download and install java from their website: https://www.java.com/en/download/ </li>
@@ -34,4 +33,4 @@ Setup for NodeMCU:
   <li>Select proper Com port</li>
 </ol>
 
-Clone this repository
+Clone this repository, choose the proper boards, check with the COM Ports and feel free to upload the code.
