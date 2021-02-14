@@ -9,6 +9,7 @@ The Prototype consists of:
   <li>5V DC Pump</li>
   <li>Servo Motor</li>
   <li>18650 Lithium Ion Batteries</li>
+  <li>HC-SR04 Ultrasonic Distance Sensor</li>
 </ul>
 <hr>
 
